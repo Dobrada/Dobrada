@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="238" height="39" viewBox="0 0 238 39">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 19.564px;
+        fill: #1837ac;
+        font-family: "Roboto Condensed";
+      }
+
+      .cls-2 {
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .cls-3 {
+        fill: #3f3f3f;
+      }
+
+      .cls-4 {
+        font-weight: 300;
+      }
+
+      .cls-5 {
+        fill: #a7a7a7;
+        font-size: 9.782px;
+      }
+    </style>
+  </defs>
+  <text id="LOGO" class="cls-1" transform="translate(-1 19.591) scale(1.431)"><tspan class="cls-2">Dobrada<tspan class="cls-3"> <tspan class="cls-4">logistics</tspan></tspan></tspan><tspan class="cls-5" x="0" dy="11.738">Национальная логистическая компания</tspan></text>
+</svg>
