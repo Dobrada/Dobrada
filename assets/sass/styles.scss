@@ -1,0 +1,43 @@
+// Vars
+@import "vars/breakpoints";
+@import "vars/colors";
+@import "vars/fonts";
+@import "vars/transitions";
+
+// Global
+@import "global/global-blocks";
+@import "global/global-buttons";
+@import "global/global-form";
+@import "global/global-styles";
+@import "global/global-typography";
+
+// Pages
+@import "pages/404-page";
+@import "pages/about-page";
+@import "pages/blog-page";
+@import "pages/coming-soon-page";
+@import "pages/contact-page";
+@import "pages/documentation-page";
+@import "pages/get-quotation-page";
+@import "pages/home-page";
+@import "pages/news-page";
+@import "pages/services-article-lp";
+@import "pages/services-article-page";
+@import "pages/services-page";
+@import "pages/faq-page";
+
+// Sections
+@import "sections/header";
+@import "sections/accepted";
+@import "sections/banner";
+@import "sections/calculator";
+@import "sections/consultation";
+@import "sections/clients";
+@import "sections/features";
+@import "sections/free-quote-form";
+@import "sections/how-we-work";
+@import "sections/media";
+@import "sections/order";
+@import "sections/services";
+@import "sections/why-choose-us";
+@import "sections/footer";

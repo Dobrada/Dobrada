@@ -1,0 +1,51 @@
+.why-choose-us {
+  padding: 50px 0;
+
+  @media (max-width: $screen-991) {
+    padding: 50px 0 20px;
+  }
+
+  @media (max-width: $screen-767) {
+    padding: 30px 0;
+  }
+
+  h2 {
+    color: $dark-gray-color;
+    margin: 0 0 35px;
+
+    @media (max-width: $screen-767) {
+      text-align: center;
+    }
+  }
+
+  .item {
+    text-align: center;
+
+    @media (max-width: $screen-991) {
+      margin: 0 0 30px;
+    }
+
+    &:last-child {
+
+      @media (max-width: $screen-767) {
+        margin: 0;
+      }
+    }
+
+    img {
+      margin: 0 0 10px;
+      height: 105px;
+    }
+
+    h4 {
+      color: $dark-gray-color;
+      margin: 0 0 10px;
+    }
+
+    p {
+      font-family: $roboto-condensed;
+      color: $text-gray-color;
+      margin: 0;
+    }
+  }
+}

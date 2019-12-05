@@ -1,0 +1,16 @@
+.get-quotation-page {
+
+  .banner {
+    background: url(../img/news/news-page-banner.png) no-repeat center !important;
+    background-size: cover !important;
+  }
+
+  .free-quote-form {
+    margin: -90px 0 30px;
+    padding: 40px 0;
+
+    &-nums {
+      padding: 110px 0 70px;
+    }
+  }
+}

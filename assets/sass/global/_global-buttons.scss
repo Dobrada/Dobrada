@@ -1,0 +1,148 @@
+// Button
+button.btn {
+  font: bold 14px/1 $roboto-condensed;
+  text-transform: uppercase;
+  border: 2px solid;
+  border-radius: 2px;
+  padding: 10px 20px;
+  height: 50px;
+  box-shadow: none;
+  cursor: pointer;
+  outline: none;
+  transition: $fast-transition;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  @media (max-width: $screen-991) {
+    padding: 10px 15px;
+  }
+
+  @media (max-width: $screen-575) {
+    padding: 10px;
+  }
+
+  span {
+
+    &.icon-right i {
+      margin: 0 0 0 15px;
+    }
+
+    &.icon-left i {
+      margin: 0 15px 0 0;
+    }
+
+    &.sc-18 i {
+      transform: scaleX(1.8);
+    }
+  }
+
+  // Button colors
+
+  &.btn-white-bg {
+    color: $active-blue-color;
+    background-color: $white-color;
+    border-color: $white-color;
+
+    &:hover {
+      color: $white-color;
+      background-color: $active-blue-color;
+      border-color: $active-blue-color;
+    }
+  }
+
+  &.btn-blue-bg {
+    color: $white-color;
+    background-color: $active-blue-color;
+    border-color: $active-blue-color;
+
+    &:hover {
+      color: $active-blue-color;
+      background-color: transparent;
+    }
+  }
+
+  &.btn-trans-white-bg {
+    color: $white-color;
+    background-color: transparent;
+    border-color: $white-color;
+
+    &:hover {
+      color: $active-blue-color;
+      background-color: $white-color;
+      border-color: $white-color;
+    }
+  }
+
+  &.btn-trans-blue-bg {
+    color: $active-blue-color;
+    background-color: transparent;
+    border-color: $active-blue-color;
+
+    &:hover {
+      color: $white-color;
+      background-color: $active-blue-color;
+    }
+  }
+
+  // Button width
+
+  &.width-100 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  &.width-180 {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  &.width-220 {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  // Button other options
+
+  &.ls-2 {
+    letter-spacing: 2px;
+  }
+
+  &.mt-30 {
+    margin: 30px 0 0;
+
+    @media (max-width: $screen-575) {
+      margin: 20px 0 0;
+    }
+  }
+
+  &.br-trans {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  &.btn-right {
+    align-self: flex-end;
+  }
+}
+
+.buttons button {
+
+  &:first-child {
+    margin-right: 10px;
+
+    @media (max-width: $screen-575) {
+      display: block;
+      margin: 0 0 20px;
+    }
+  }
+
+  &:last-child {
+    margin-left: 10px;
+
+    @media (max-width: $screen-575) {
+      display: block;
+      margin: 0;
+    }
+  }
+}

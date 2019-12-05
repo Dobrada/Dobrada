@@ -1,0 +1,39 @@
+.banner {
+  padding: 125px 0 175px;
+  background-size: cover;
+  background-position: center;
+
+  @media (max-width: $screen-767) {
+    padding: 100px 0;
+  }
+
+  &-transparent {
+
+    @media (min-width: $screen-767 + 1) {
+      padding-top: 250px !important;
+    }
+
+    @media (min-width: $screen-991 + 1) {
+      padding-top: 330px !important;
+    }
+  }
+
+  h1 {
+    color: $white-color;
+    text-transform: uppercase;
+    margin: 0;
+
+    @media (max-width: $screen-767) {
+      font-size: 48px;
+    }
+
+    @media (max-width: $screen-575) {
+      font-size: 36px;
+    }
+  }
+
+  h6 {
+    color: $white-color;
+    line-height: 1.4;
+  }
+}

@@ -1,0 +1,88 @@
+// Inputs and selects
+.select {
+  position: relative;
+
+  &:after {
+    font-family: $font-awesome;
+    content: '\f107';
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    z-index: 0;
+    color: $text-gray-color;
+    transition: $fast-transition;
+  }
+
+  &-with-label:after {
+    top: 21px;
+  }
+
+  select {
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    z-index: 1;
+
+    &::-ms-expand {
+      display: none;
+    }
+
+    &:focus {
+      background: transparent;
+    }
+  }
+}
+
+.dropdown-toggle:after {
+  display: none;
+}
+
+form {
+
+  .form-control {
+    font: normal 16px $roboto;
+    color: $text-gray-color;
+    padding: 15px 0;
+    border: 0;
+    border-bottom: 2px solid #E5E5E5;
+    border-radius: 0;
+    background: transparent !important;
+    box-shadow: none !important;
+
+    @media (max-width: $screen-575) {
+      font-size: 14px;
+    }
+
+    &::placeholder {
+      color: $text-gray-color;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      border-bottom: 2px solid $active-blue-color;
+      background: transparent;
+    }
+  }
+
+  input, select {
+
+    &.form-control {
+      height: 50px !important;
+    }
+  }
+
+  input, select {
+
+    &.form-control-small {
+      padding: 0;
+      height: 36px !important;
+    }
+  }
+
+  textarea.form-control {
+    height: 100px !important;
+    resize: none;
+  }
+}

@@ -1,0 +1,162 @@
+.calculator {
+  padding: 40px 0;
+
+  @media (max-width: $screen-767) {
+    padding: 30px 0;
+  }
+
+  &-content {
+    padding: 60px 65px;
+    background-color: $white-color;
+
+    @media (max-width: $screen-991) {
+      padding: 50px;
+    }
+
+    @media (max-width: $screen-767) {
+      padding: 30px;
+    }
+
+    @media (max-width: $screen-575) {
+      padding: 30px 20px;
+    }
+
+    h2 {
+      color: $dark-gray-color;
+      margin: 0 0 45px;
+
+      @media (max-width: $screen-991) {
+        margin: 0 0 30px;
+      }
+    }
+
+    .tab-content {
+
+      form {
+
+        .inputs {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: flex-end;
+
+          .form-group {
+            width: calc(50% - 15px);
+            margin: 0 0 45px;
+
+            @media (max-width: $screen-767) {
+              width: 100%;
+              margin: 0 0 30px;
+            }
+
+            > label {
+              color: $text-gray-color;
+              font: normal 12px $roboto;
+            }
+
+            &-checkboxes {
+              display: flex;
+              padding: 0 0 15px;
+
+              @media (max-width: $screen-767) {
+                padding: 0;
+              }
+            }
+
+            .form-check {
+              padding: 0;
+              display: flex;
+              align-items: center;
+
+              &:first-child {
+                margin: 0 110px 0 0;
+
+                @media (max-width: $screen-991) {
+                  margin: 0 40px 0 0;
+                }
+              }
+
+              input {
+                margin: 0;
+                padding: 0;
+                opacity: 0;
+              }
+
+              label {
+                color: $dark-gray-color;
+                padding: 0 0 0 30px;
+                position: relative;
+                cursor: pointer;
+
+                @media (max-width: $screen-575) {
+                  padding: 0 0 0 20px;
+                }
+
+                &:before {
+                  content: '';
+                  display: block;
+                  align-items: center;
+                  width: 16px;
+                  height: 16px;
+                  border-radius: 50%;
+                  border: 2px solid $dark-gray-color;
+                  position: absolute;
+                  left: 0;
+                  top: 3px;
+                  transition: $fast-transition;
+
+                  @media (max-width: $screen-575) {
+                    top: 5px;
+                    width: 14px;
+                    height: 14px;
+                  }
+                }
+
+                &.active:before {
+                  background-color: $active-blue-color;
+                  border: 2px solid $active-blue-color;
+                }
+
+                span {
+
+                  @media (max-width: $screen-575) {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0 0;
+
+        @media (max-width: $screen-767) {
+          display: block;
+        }
+
+        p {
+          color: $text-gray-color;
+          max-width: 550px;
+
+          @media (max-width: $screen-991) {
+            max-width: 380px;
+          }
+
+          @media (max-width: $screen-575) {
+            margin: 0 0 30px;
+            max-width: 100%;
+          }
+        }
+
+        button {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

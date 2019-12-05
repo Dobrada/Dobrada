@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="59" viewBox="0 0 200 59">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+        fill: #fff;
+        font-family: "Roboto Condensed", sens-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .cls-2 {
+        font-family: "Roboto Condensed", sens-serif;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <text id="Dobrada_logistics" data-name="Dobrada  logistics" class="cls-1" transform="translate(-2 25.591) scale(1.431)"><tspan class="cls-1">Dobrada </tspan><tspan class="cls-2" x="0" dy="20">logistics</tspan></text>
+</svg>

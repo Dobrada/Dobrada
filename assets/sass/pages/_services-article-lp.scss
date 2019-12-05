@@ -1,0 +1,58 @@
+.services-article-lp {
+
+  &-header {
+
+    .navbar-info {
+      background-color: transparent;
+      color: $white-color;
+
+      .col-md-3 {
+
+        a {
+          color: $white-color;
+        }
+
+        p {
+          color: $white-color;
+        }
+      }
+    }
+
+    .navbar-icon {
+      opacity: 1;
+    }
+  }
+
+  &-content {
+
+    .banner {
+      background: url('../img/services//services-article-lp-banner.png') no-repeat center !important;
+      background-size: cover !important;
+      padding: 260px 0 290px;
+      margin: -140px 0 0;
+
+      @media (max-width: $screen-767) {
+        padding: 200px 0;
+      }
+
+      @media (max-width: $screen-575) {
+        margin: 0;
+        padding: 100px 0;
+      }
+
+      h1 {
+        margin: 0 0 15px;
+      }
+
+      h6 {
+        line-height: 1.4;
+        max-width: 670px;
+        margin: 0 0 75px;
+
+        @media (max-width: $screen-767) {
+          margin: 0 0 25px;
+        }
+      }
+    }
+  }
+}

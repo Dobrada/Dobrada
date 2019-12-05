@@ -1,0 +1,42 @@
+.accepted {
+  padding: 35px 0 50px;
+
+  @media (max-width: $screen-767) {
+    padding: 30px 0;
+  }
+
+  @media (max-width: $screen-575) {
+    text-align: center;
+  }
+
+  h2 {
+    color: $dark-gray-color;
+    margin: 0 0 45px;
+  }
+
+  img {
+    width: 100%;
+    margin: 0 0 30px;
+    border-radius: 50%;
+
+    @media (max-width: $screen-991) {
+      margin: 0 0 20px;
+    }
+
+    @media (max-width: $screen-575) {
+      margin: 0 auto 20px;
+      max-width: 160px;
+    }
+  }
+
+  p {
+    font-family: $roboto-condensed;
+    color: $dark-gray-color;
+    margin: 0;
+    text-align: center;
+
+    @media (max-width: $screen-991) {
+      margin: 0 0 30px;
+    }
+  }
+}

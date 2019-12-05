@@ -1,0 +1,320 @@
+.media {
+  padding: 40px 0;
+
+  @media (max-width: $screen-991) {
+    padding: 40px 0 0;
+  }
+
+  &-bottom {
+
+    @media (min-width: $screen-991 + 1) {
+      padding: 40px 0 0;
+      margin-bottom: -50px;
+    }
+  }
+
+  &-blog {
+
+    .content {
+      padding: 60px 60px 100px 0;
+
+      &.presentation {
+        padding: 60px 30px 30px 0;
+
+        img {
+          max-width: 100%;
+          margin: 80px 0 -30px 30px;
+
+          @media (max-width: $screen-991) {
+            margin: 50px 0 -50px 50px;
+          }
+
+          @media (max-width: $screen-767) {
+            margin: 30px 0 -30px 30px;
+          }
+
+          @media (max-width: $screen-575) {
+            margin: 30px 0 -30px 20px;
+          }
+        }
+      }
+
+      .head {
+        display: flex;
+        align-items: flex-end;
+        margin: 0 0 60px;
+
+        @media (max-width: $screen-991) {
+          margin: 0 0 40px;
+        }
+
+        h2 {
+          color: $dark-gray-color;
+          margin: 0;
+        }
+
+        a {
+          text-decoration: none;
+          transition: $fast-transition;
+
+          &:hover p img {
+            margin: 0 0 0 15px;
+          }
+
+          p {
+            font-weight: bold;
+            font-family: $roboto-condensed;
+            color: $active-blue-color;
+            text-transform: uppercase;
+            margin: 0 0 5px 25px;
+            display: flex;
+            align-items: center;
+
+            img {
+              width: 28px;
+              margin: 0 0 0 10px;
+              transition: $fast-transition;
+            }
+          }
+        }
+      }
+
+      .item {
+        background-size: cover !important;
+        background-position: center !important;
+        margin: 0 0 15px;
+        color: $white-color;
+
+        &.item-1 {
+          background: url('../img/media/blog-1.jpg') no-repeat;
+
+          .info {
+            padding: 35px 175px 145px 30px;
+
+            @media (max-width: $screen-991) {
+              padding: 35px;
+            }
+
+            @media (max-width: $screen-575) {
+              padding: 25px;
+            }
+          }
+        }
+
+        &.item-2 {
+          background: url('../img/media/blog-2.jpg') no-repeat;
+        }
+
+        &.item-3 {
+          background: url('../img/media/blog-3.jpg') no-repeat;
+        }
+
+        &.item-2, &.item-3 {
+
+          .info {
+            padding: 35px 50px 75px 35px;
+
+            @media (max-width: $screen-767) {
+              padding: 35px;
+            }
+
+            @media (max-width: $screen-575) {
+              padding: 25px;
+            }
+          }
+        }
+
+        h6 {
+          font-family: $roboto-condensed;
+          margin: 0 0 35px;
+
+          @media (max-width: $screen-767) {
+            margin: 0;
+          }
+
+          @media (max-width: $screen-575) {
+            margin: 0 0 15px;
+          }
+
+          i {
+            margin: 0 0 0 15px;
+          }
+        }
+
+        h3 {
+          margin: 0;
+          font-weight: bold;
+
+          @media (max-width: $screen-767) {
+            font-size: 16px;
+          }
+
+          @media (max-width: $screen-575) {
+            font-size: 14px;
+            margin: 0 0 15px;
+          }
+        }
+      }
+
+      .info {
+        transition: $fast-transition;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        &:hover {
+          background-color: rgba(24, 55, 172, 0.8);
+          cursor: pointer;
+        }
+      }
+
+      .two-items {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width: $screen-991) {
+          display: block;
+        }
+
+        .item {
+          width: calc(50% - 7.5px);
+          margin: 0;
+
+          @media (max-width: $screen-991) {
+            width: 100%;
+            margin: 0 0 15px;
+          }
+
+          &:last-child {
+
+            @media (max-width: $screen-991) {
+              margin: 0;
+            }
+          }
+
+          p {
+            margin: 0 0 25px;
+          }
+
+          h6 {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  &-news {
+    padding: 60px 0 0;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: $screen-991) {
+      padding: 50px 0;
+      display: block;
+    }
+
+    @media (max-width: $screen-767) {
+      padding: 40px 0;
+    }
+
+    .head {
+      display: flex;
+      align-items: flex-end;
+      margin: 0 0 30px;
+      padding: 0 0 0 100px;
+
+      @media (max-width: $screen-991) {
+        padding: 0 0 0 15px;
+        margin: 0 0 40px;
+      }
+
+      @media (max-width: $screen-767) {
+        margin: 0 0 20px;
+      }
+
+      h2 {
+        color: $dark-gray-color;
+        margin: 0;
+      }
+
+      a {
+        text-decoration: none;
+        transition: $fast-transition;
+
+        &:hover p img {
+          margin: 0 0 0 15px;
+        }
+
+        p {
+          font-weight: bold;
+          font-family: $roboto-condensed;
+          color: $active-blue-color;
+          text-transform: uppercase;
+          margin: 0 0 5px 25px;
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 28px;
+            margin: 0 0 0 10px;
+            transition: $fast-transition;
+          }
+        }
+      }
+    }
+
+    .item {
+      color: $dark-gray-color;
+      margin: 0 0 0 15px;
+      background-size: cover !important;
+      background-position: center !important;
+      border-bottom: 2px solid #e5e5e5;
+      cursor: pointer;
+      position: relative;
+      transition: $fast-transition;
+
+      @media (max-width: $screen-991) {
+        margin: 0;
+      }
+
+      &:hover {
+        color: $white-color;
+
+        .bg {
+          opacity: 1;
+        }
+      }
+
+      .bg {
+        background: url('../img/media/news-1-bg.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 0;
+        opacity: 0;
+        transition: $fast-transition;
+      }
+
+      .info {
+        padding: 30px 20px 30px 85px;
+        position: relative;
+        z-index: 1;
+
+        @media (max-width: $screen-991) {
+          padding: 20px 20px 20px 15px;
+        }
+
+        h4 {
+          margin: 0 0 20px;
+        }
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

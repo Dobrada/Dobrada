@@ -1,0 +1,101 @@
+h1, .number {
+  font: bold 68px/1 $roboto-condensed;
+
+  @media (max-width: $screen-991) {
+    font-size: 48px;
+  }
+
+  @media (max-width: $screen-575) {
+    font-size: 36px;
+  }
+}
+
+h2 {
+  font: bold 54px/1 $roboto-condensed;
+
+  @media (max-width: $screen-991) {
+    font-size: 40px;
+  }
+
+  @media (max-width: $screen-575) {
+    font-size: 32px;
+  }
+}
+
+h3 {
+  font: normal 44px/1 $roboto-condensed;
+
+  @media (max-width: $screen-991) {
+    font-size: 36px;
+  }
+
+  @media (max-width: $screen-575) {
+    font-size: 28px;
+  }
+}
+
+h4 {
+  font: bold 34px/1 $roboto-condensed;
+
+  @media (max-width: $screen-991) {
+    font-size: 28px;
+  }
+
+  @media (max-width: $screen-575) {
+    font-size: 24px;
+  }
+}
+
+h5 {
+  font: normal 24px/1 $roboto;
+
+  @media (max-width: $screen-991) {
+    font-size: 20px;
+  }
+
+  @media (max-width: $screen-575) {
+    font-size: 18px;
+  }
+}
+
+h6 {
+  font: normal 18px/1 $roboto;
+
+  @media (max-width: $screen-991) {
+    font-size: 16px;
+  }
+
+  @media (max-width: $screen-575) {
+    font-size: 14px;
+  }
+}
+
+p {
+  font: normal 16px/1.2 $roboto;
+
+  @media (max-width: $screen-575) {
+    font-size: 14px;
+  }
+}
+
+.small-text {
+  font: normal 14px/1 $roboto;
+  display: block;
+  margin: 0 0 15px;
+
+  @media (max-width: $screen-575) {
+    font-size: 12px;
+  }
+}
+
+.fw-light {
+  font-weight: 300 !important;
+}
+
+.fw-normal {
+  font-weight: normal !important;
+}
+
+.fw-bold {
+  font-weight: bold !important;
+}
