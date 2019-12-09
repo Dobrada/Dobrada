@@ -228,6 +228,9 @@ p{font:normal 15px/1.2 Roboto,sans-serif}
 .blog-page-content-main .content nav ul li.active a{color:#fff;background-color:#1837ac}
 .blog-page-content-more{padding:40px 15px}
 .non-padding{padding-right: 0;}
+.tags p{font: lighter 18px/1.2 Roboto Condensed,sans-serif;}
+.tags h5{font-weight: bold;}
+.big-text-tags{font-size: 22px; letter-spacing: 1px; font-weight: 500;}
 .blog-page-content-more .popular h5{font-weight:700;font-family:"Roboto Condensed",sans-serif;color:#3f3f3f;margin:0 0 25px}
 .blog-page-content-more .popular a{display:block;text-decoration:none;margin:0 0 30px;transition:.15s all ease-in-out}
 .blog-page-content-more .popular a:hover{background-color:rgba(24,55,172,.8)}
@@ -838,5 +841,3 @@ button.button-calculator{font-size: 14px;}
 @media (max-width:767px){.guarantee h4{font-size: 28px;}}
 @media (max-width:767px){header .navbar .container .get-quotation{margin-left: 0; border-bottom: none;}}
 @media (max-width:575px){.navbar-brand{margin-right: 0;}}
-.tags p{font: normal 15px/1.2 Roboto Condensed,sans-serif;}
-.big-text-tags{font-size: 22px; letter-spacing: 1px;}
